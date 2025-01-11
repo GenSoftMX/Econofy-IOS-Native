@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C5DA5882D2880E400F79449 /* CustomUI in Frameworks */ = {isa = PBXBuildFile; productRef = 4C5DA5872D2880E400F79449 /* CustomUI */; };
+		4CB1A3E02D31AA8100E0EC1B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 4CB1A3DF2D31AA8100E0EC1B /* FirebaseAuth */; };
+		4CB1A3E22D31AA8100E0EC1B /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 4CB1A3E12D31AA8100E0EC1B /* FirebaseCore */; };
+		4CB1A3E82D31B6BA00E0EC1B /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 4CB1A3E72D31B6BA00E0EC1B /* FirebaseAnalytics */; };
+		4CB1A3EA2D31B6BA00E0EC1B /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 4CB1A3E92D31B6BA00E0EC1B /* FirebaseAppCheck */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CBDD2932D2786C4003F4D39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CBDD2742D2786C2003F4D39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CBDD27B2D2786C2003F4D39;
+			remoteInfo = econofy;
+		};
+		4CBDD29D2D2786C4003F4D39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CBDD2742D2786C2003F4D39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CBDD27B2D2786C2003F4D39;
+			remoteInfo = econofy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C5DA4442D287B9100F79449 /* UI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = UI; path = ../UI; sourceTree = SOURCE_ROOT; };
+		4CBDD27C2D2786C2003F4D39 /* econofy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = econofy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CBDD2922D2786C4003F4D39 /* econofyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = econofyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CBDD29C2D2786C4003F4D39 /* econofyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = econofyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		4CAAB8DF2D31FC240060DE2C /* Exceptions for "econofy" folder in "econofy" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Config/Debug/info-dev.plist",
+				"Config/Release/GoogleService-Info.plist",
+				"Config/Release/info-prod.plist",
+			);
+			target = 4CBDD27B2D2786C2003F4D39 /* econofy */;
+		};
+		4CAAB8E02D31FC240060DE2C /* Exceptions for "econofy" folder in "econofyTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Presentation/Onboarding/Interface/Router/OnboardingRouterInput.swift,
+				Presentation/Onboarding/Interface/View/OnboardingTitleView.swift,
+				Presentation/Onboarding/Interface/View/OnboardingViewController.swift,
+				Presentation/Onboarding/Interface/View/OnboardingViewInput.swift,
+				Presentation/Onboarding/Interface/View/OnboardingViewOutput.swift,
+			);
+			target = 4CBDD2912D2786C4003F4D39 /* econofyTests */;
+		};
+		4CAAB8E12D31FC240060DE2C /* Exceptions for "econofy" folder in "econofyUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Presentation/Onboarding/Interface/Router/OnboardingRouterInput.swift,
+				Presentation/Onboarding/Interface/View/OnboardingTitleView.swift,
+				Presentation/Onboarding/Interface/View/OnboardingViewController.swift,
+				Presentation/Onboarding/Interface/View/OnboardingViewInput.swift,
+				Presentation/Onboarding/Interface/View/OnboardingViewOutput.swift,
+			);
+			target = 4CBDD29B2D2786C4003F4D39 /* econofyUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4CBDD27E2D2786C2003F4D39 /* econofy */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4CAAB8DF2D31FC240060DE2C /* Exceptions for "econofy" folder in "econofy" target */,
+				4CAAB8E02D31FC240060DE2C /* Exceptions for "econofy" folder in "econofyTests" target */,
+				4CAAB8E12D31FC240060DE2C /* Exceptions for "econofy" folder in "econofyUITests" target */,
+			);
+			path = econofy;
+			sourceTree = "<group>";
+		};
+		4CBDD2952D2786C4003F4D39 /* econofyTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = econofyTests;
+			sourceTree = "<group>";
+		};
+		4CBDD29F2D2786C4003F4D39 /* econofyUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = econofyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CBDD2792D2786C2003F4D39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5DA5882D2880E400F79449 /* CustomUI in Frameworks */,
+				4CB1A3E22D31AA8100E0EC1B /* FirebaseCore in Frameworks */,
+				4CB1A3E82D31B6BA00E0EC1B /* FirebaseAnalytics in Frameworks */,
+				4CB1A3EA2D31B6BA00E0EC1B /* FirebaseAppCheck in Frameworks */,
+				4CB1A3E02D31AA8100E0EC1B /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CBDD28F2D2786C4003F4D39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CBDD2992D2786C4003F4D39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CBDD2732D2786C2003F4D39 = {
+			isa = PBXGroup;
+			children = (
+				4C5DA4442D287B9100F79449 /* UI */,
+				4CBDD27E2D2786C2003F4D39 /* econofy */,
+				4CBDD2952D2786C4003F4D39 /* econofyTests */,
+				4CBDD29F2D2786C4003F4D39 /* econofyUITests */,
+				4CBDD27D2D2786C2003F4D39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CBDD27D2D2786C2003F4D39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CBDD27C2D2786C2003F4D39 /* econofy.app */,
+				4CBDD2922D2786C4003F4D39 /* econofyTests.xctest */,
+				4CBDD29C2D2786C4003F4D39 /* econofyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CBDD27B2D2786C2003F4D39 /* econofy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CBDD2A52D2786C4003F4D39 /* Build configuration list for PBXNativeTarget "econofy" */;
+			buildPhases = (
+				4CBDD2782D2786C2003F4D39 /* Sources */,
+				4CBDD2792D2786C2003F4D39 /* Frameworks */,
+				4CBDD27A2D2786C2003F4D39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4CBDD27E2D2786C2003F4D39 /* econofy */,
+			);
+			name = econofy;
+			packageProductDependencies = (
+				4C5DA5872D2880E400F79449 /* CustomUI */,
+				4CB1A3DF2D31AA8100E0EC1B /* FirebaseAuth */,
+				4CB1A3E12D31AA8100E0EC1B /* FirebaseCore */,
+				4CB1A3E72D31B6BA00E0EC1B /* FirebaseAnalytics */,
+				4CB1A3E92D31B6BA00E0EC1B /* FirebaseAppCheck */,
+			);
+			productName = econofy;
+			productReference = 4CBDD27C2D2786C2003F4D39 /* econofy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CBDD2912D2786C4003F4D39 /* econofyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CBDD2AA2D2786C4003F4D39 /* Build configuration list for PBXNativeTarget "econofyTests" */;
+			buildPhases = (
+				4CBDD28E2D2786C4003F4D39 /* Sources */,
+				4CBDD28F2D2786C4003F4D39 /* Frameworks */,
+				4CBDD2902D2786C4003F4D39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CBDD2942D2786C4003F4D39 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4CBDD2952D2786C4003F4D39 /* econofyTests */,
+			);
+			name = econofyTests;
+			packageProductDependencies = (
+			);
+			productName = econofyTests;
+			productReference = 4CBDD2922D2786C4003F4D39 /* econofyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4CBDD29B2D2786C4003F4D39 /* econofyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CBDD2AD2D2786C4003F4D39 /* Build configuration list for PBXNativeTarget "econofyUITests" */;
+			buildPhases = (
+				4CBDD2982D2786C4003F4D39 /* Sources */,
+				4CBDD2992D2786C4003F4D39 /* Frameworks */,
+				4CBDD29A2D2786C4003F4D39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CBDD29E2D2786C4003F4D39 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4CBDD29F2D2786C4003F4D39 /* econofyUITests */,
+			);
+			name = econofyUITests;
+			packageProductDependencies = (
+			);
+			productName = econofyUITests;
+			productReference = 4CBDD29C2D2786C4003F4D39 /* econofyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CBDD2742D2786C2003F4D39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					4CBDD27B2D2786C2003F4D39 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					4CBDD2912D2786C4003F4D39 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 4CBDD27B2D2786C2003F4D39;
+					};
+					4CBDD29B2D2786C4003F4D39 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 4CBDD27B2D2786C2003F4D39;
+					};
+				};
+			};
+			buildConfigurationList = 4CBDD2772D2786C2003F4D39 /* Build configuration list for PBXProject "econofy" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"es-419",
+			);
+			mainGroup = 4CBDD2732D2786C2003F4D39;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				4CBDD55E2D2872AA003F4D39 /* XCRemoteSwiftPackageReference "ImageSlideshow" */,
+				4C5DA5892D28819200F79449 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				4CB1A3CF2D31A6D700E0EC1B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4CBDD27D2D2786C2003F4D39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CBDD27B2D2786C2003F4D39 /* econofy */,
+				4CBDD2912D2786C4003F4D39 /* econofyTests */,
+				4CBDD29B2D2786C4003F4D39 /* econofyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CBDD27A2D2786C2003F4D39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CBDD2902D2786C4003F4D39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CBDD29A2D2786C4003F4D39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CBDD2782D2786C2003F4D39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CBDD28E2D2786C4003F4D39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CBDD2982D2786C4003F4D39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CBDD2942D2786C4003F4D39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CBDD27B2D2786C2003F4D39 /* econofy */;
+			targetProxy = 4CBDD2932D2786C4003F4D39 /* PBXContainerItemProxy */;
+		};
+		4CBDD29E2D2786C4003F4D39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CBDD27B2D2786C2003F4D39 /* econofy */;
+			targetProxy = 4CBDD29D2D2786C4003F4D39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4CB1A3EB2D31BCE600E0EC1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 4CBDD27E2D2786C2003F4D39 /* econofy */;
+			baseConfigurationReferenceRelativePath = Config/Debug/Development.xcconfig;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CB1A3EC2D31BCE700E0EC1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 4CBDD27E2D2786C2003F4D39 /* econofy */;
+			baseConfigurationReferenceRelativePath = Config/Debug/Development.xcconfig;
+			buildSettings = {
+				APP_DISPLAY_NAME = "Econofy Dev";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "econofy/Config/Debug/Info-dev.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Econofy;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				"INFOPLIST_KEY_UILaunchStoryboardName[sdk=*]" = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Splash;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = todoflutter.dev.econofy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CB1A3ED2D31BCE700E0EC1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 4CBDD27E2D2786C2003F4D39 /* econofy */;
+			baseConfigurationReferenceRelativePath = Config/Debug/Development.xcconfig;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = todoflutter.com.econofyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/econofy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/econofy";
+			};
+			name = Debug;
+		};
+		4CB1A3EE2D31BCE700E0EC1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 4CBDD27E2D2786C2003F4D39 /* econofy */;
+			baseConfigurationReferenceRelativePath = Config/Debug/Development.xcconfig;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = todoflutter.com.econofyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = econofy;
+			};
+			name = Debug;
+		};
+		4CBDD2A72D2786C4003F4D39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 4CBDD27E2D2786C2003F4D39 /* econofy */;
+			baseConfigurationReferenceRelativePath = Config/Release/Production.xcconfig;
+			buildSettings = {
+				APP_DISPLAY_NAME = Econofy;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "econofy/Config/Release/Info-prod.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Econofy;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Splash;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = todoflutter.com.econofy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4CBDD2A92D2786C4003F4D39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 4CBDD27E2D2786C2003F4D39 /* econofy */;
+			baseConfigurationReferenceRelativePath = Config/Release/Production.xcconfig;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CBDD2AC2D2786C4003F4D39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 4CBDD27E2D2786C2003F4D39 /* econofy */;
+			baseConfigurationReferenceRelativePath = Config/Release/Production.xcconfig;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = todoflutter.com.econofyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/econofy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/econofy";
+			};
+			name = Release;
+		};
+		4CBDD2AF2D2786C4003F4D39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 4CBDD27E2D2786C2003F4D39 /* econofy */;
+			baseConfigurationReferenceRelativePath = Config/Release/Production.xcconfig;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = todoflutter.com.econofyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = econofy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CBDD2772D2786C2003F4D39 /* Build configuration list for PBXProject "econofy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB1A3EB2D31BCE600E0EC1B /* Debug */,
+				4CBDD2A92D2786C4003F4D39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CBDD2A52D2786C4003F4D39 /* Build configuration list for PBXNativeTarget "econofy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB1A3EC2D31BCE700E0EC1B /* Debug */,
+				4CBDD2A72D2786C4003F4D39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CBDD2AA2D2786C4003F4D39 /* Build configuration list for PBXNativeTarget "econofyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB1A3ED2D31BCE700E0EC1B /* Debug */,
+				4CBDD2AC2D2786C4003F4D39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CBDD2AD2D2786C4003F4D39 /* Build configuration list for PBXNativeTarget "econofyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB1A3EE2D31BCE700E0EC1B /* Debug */,
+				4CBDD2AF2D2786C4003F4D39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4C5DA5892D28819200F79449 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		4CB1A3CF2D31A6D700E0EC1B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.6.0;
+			};
+		};
+		4CBDD55E2D2872AA003F4D39 /* XCRemoteSwiftPackageReference "ImageSlideshow" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/zvonicek/ImageSlideshow";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.9.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4C5DA5872D2880E400F79449 /* CustomUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CustomUI;
+		};
+		4CB1A3DF2D31AA8100E0EC1B /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4CB1A3CF2D31A6D700E0EC1B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		4CB1A3E12D31AA8100E0EC1B /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4CB1A3CF2D31A6D700E0EC1B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		4CB1A3E72D31B6BA00E0EC1B /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4CB1A3CF2D31A6D700E0EC1B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		4CB1A3E92D31B6BA00E0EC1B /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4CB1A3CF2D31A6D700E0EC1B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4CBDD2742D2786C2003F4D39 /* Project object */;
+}
